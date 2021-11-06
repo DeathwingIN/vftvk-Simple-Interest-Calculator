@@ -1,10 +1,10 @@
 body 
 {
-    background: linear-gradient(90deg, rgb(235, 120, 235) 0%, rgb(231, 170, 101) 28%, rgb(162, 118, 223) 56%, rgb(120, 209, 250) 78%, rgba(0,212,255,1) 100%);
+    background-color: black;
 }
 #mainbox
 {
-    background-color: rgba(122, 122, 122, 0.747);
+    background-color: white;
     border-radius: 30px;
     border: 8px solid #182504;
     width: 800px;
@@ -99,7 +99,7 @@ h2
   }
 .dropdown
 {
-  background-color: #f2f8ff98;
+  background-color: #869fbbec;
   color: rgb(0, 0, 0);
   padding: 12px 10px;
   font-size: 12px;
@@ -113,13 +113,18 @@ h2
 {
   width: 100%;
   padding: 8px 20px 10px;
-  border: none;
+  border: 8px;
   border-radius: 30px;
   font-weight: 650;
-  background-color: #f2f8ff98;
+  background-color: #869fbbec;
 }
 .td3
 {
   width: 10px;
   height: 25px;
+}
+.field_label {
+  display: inline-block;
+  width: 150px;
+  
 }
