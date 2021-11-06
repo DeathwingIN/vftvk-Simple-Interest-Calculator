@@ -2,15 +2,87 @@
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+        <div id="mainbox" >
+            <h1>Simple Interest Calculator</h1>
+            <table align="center" border="1">
+                <tr>
+                    <td class="td1">
+                        <label for="AmountL"><h2>Amount</h2> </label>
+                    </td>
+                    <td  class="td1"> 
+                        <input type="text" name="a" id="amount" class="inputbox" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <td  class="td1">
+                        <label for="Interest_Rate"><h2>Interest Rate</h2></label>
+                    </td>
+                    <td  class="td1">
+                         <input type="text" name="b" id="rate" placeholder="Enter Rate "/> 
+                    </td>
+                </tr>
+                <tr>
+                    <td  class="td1">
+                        <label for="no_of_years"><h2>No of Years </h2></label>
+                    </td>
+                    <td  class="td1"> 
+                        <select name="c" id="time" class="dropdown">
+                            
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> 
+                        <button onclick = "simple_interest()" class="button" ><span>Compute Interest</span> </button>
+                     </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="td3"><p></p></td>
+                </tr>
+                <tr>
+                    <td> 
+                        <div id="lamount" class="h3" > </div>
+                     </td>
+                     <td>
+                        <div id="amountl1" class="mark" ></div>
+                     </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <div id="lrate" class="h3"> </div>
+                     </td>
+                     <td>
+                        <div id="ratel" class="mark" ></div>
+                     </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <div id="linterst" class="h3"> </div>
+                     </td>
+                     <td>
+                        <div id="interstl" class="mark" ></div>
+                     </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <div id="lyear" class="h3"> </div>
+                     </td>
+                     <td>
+                        <div id="yearl" class="mark" ></div>
+                     </td>
+                </tr>
+            </table>
+            <p>
+                <b id="last">© Everyone Can Get Rich</b>       
+           </p>
+        </div>
     </body>
 </html>

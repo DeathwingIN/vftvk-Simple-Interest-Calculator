@@ -1,4 +1,125 @@
-body {background-color:tan;}
-h1{color:green;}
+body 
+{
+    background: linear-gradient(90deg, rgb(235, 120, 235) 0%, rgb(231, 170, 101) 28%, rgb(162, 118, 223) 56%, rgb(120, 209, 250) 78%, rgba(0,212,255,1) 100%);
+}
+#mainbox
+{
+    background-color: rgba(122, 122, 122, 0.747);
+    border-radius: 30px;
+    border: 8px solid #182504;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+  }
+h1
+{
+  padding: 12px 12px;
+   text-align-last: center;
+    color:rgb(56, 55, 55);
+    font-size: 55px;
+}
+h2
+{
+  font-size: 20px;
+}
+.h3
+{
+  font-size: 18px;
+}
+.div1
+{
+    resize: both;
+    overflow: auto;
+    
+  }
+.table 
+  {
+    table-layout: auto;
+    width: auto;
+    height: auto;
+  }
+.td1
+  {
+    padding: 10px 5px;
+    text-align: left;
+  }
 
 
+ .mark 
+  {
+    background-color: yellow;
+    color: black;
+    width: fit-content;
+    font-size: 18px;
+   
+  }
+
+  .button
+  {
+    padding: 12px;
+    margin: 10px 110px;
+    font-size: 14px;
+    font-weight: 650;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(71, 204, 171, 0.5);
+    background-color: #f2f8ff98;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.5s;
+    align-items: center;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.dropdown
+{
+  background-color: #f2f8ff98;
+  color: rgb(0, 0, 0);
+  padding: 12px 10px;
+  font-size: 12px;
+  font-weight: 650;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.inputbox
+{
+  width: 100%;
+  padding: 8px 20px 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 650;
+  background-color: #f2f8ff98;
+}
+.td3
+{
+  width: 10px;
+  height: 25px;
+}
