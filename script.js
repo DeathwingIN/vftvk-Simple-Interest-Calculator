@@ -7,7 +7,7 @@ t = document.getElementById ("time").value;
 r = document.getElementById ("rate").value;
 if ((!a.match(/^\d+/)))
      {
-      alert('Please Enter Valid Amount !!!!');
+      alert('Enter a positive number !!!!');
       document.getElementById('amount').focus();
       return;
     }
